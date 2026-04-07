@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <h1 class="logo">PrimeHomes</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#properties">Properties</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="overlay">
+        <h1>Find Your Dream Home</h1>
+        <p>Luxury homes at affordable prices</p>
+        <a href="#properties" class="btn">Explore Properties</a>
+    </div>
+</section>
+
+<section class="about reveal" id="about">
+    <h2>About Us</h2>
+    <p>
+        We are dedicated to helping you find your dream home with ease and confidence.
+        Our team provides trusted services, modern properties, and affordable options
+        tailored to your needs.
+    </p>
+</section>
+
+<section class="features reveal">
+    <h2>Why Choose Us</h2>
+
+    <div class="feature-container">
+
+        <div class="feature">
+            <h3>Trusted Agents</h3>
+            <p>We work with experienced and verified professionals.</p>
+        </div>
+
+        <div class="feature">
+            <h3>Affordable Prices</h3>
+            <p>We offer properties that match your budget.</p>
+        </div>
+
+        <div class="feature">
+            <h3>Fast Process</h3>
+            <p>Quick and smooth transactions with no stress.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="properties reveal" id="properties">
+    <h2>Featured Properties</h2>
+
+    <div class="property-container">
+
+        <div class="card">
+            <img src="house1.jpg" alt="House 1">
+            <h3>Modern Villa</h3>
+            <p>$120,000</p>
+        </div>
+
+        <div class="card">
+            <img src="house2.jpg" alt="House 2">
+            <h3>Luxury Apartment</h3>
+            <p>$90,000</p>
+        </div>
+
+        <div class="card">
+            <img src="house3.jpg" alt="House 3">
+            <h3>Family House</h3>
+            <p>$75,000</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact reveal" id="contact">
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <p>Let’s discuss your building project</p>
+
+        <form id="contact-form" class="contact-form">
+
+            <input type="text" name="name" placeholder="Your Name" required>
+
+            <input type="email" name="email" placeholder="Your Email" required>
+
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+
+            <p id="form-status"></p>
+
+        </form>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
